@@ -1,0 +1,8 @@
+dist
+build
+.DS_Store
+node_modules
+.parcel-cache
+src/content/test.js
+src/background/test.js
+src/public/test.js

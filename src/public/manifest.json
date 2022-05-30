@@ -1,0 +1,28 @@
+{
+    "name": "Bilibili 录播姬",
+    "version": "3.0.2",
+    "description": "一键录制 Bilibili 直播间视频，不用错过主播的精彩时刻。",
+    "homepage_url": "https://aimu.app",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "images/16.png",
+            "32": "images/32.png",
+            "48": "images/48.png",
+            "128": "images/128.png"
+        }
+    },
+    "icons": {
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "bilibili-live-recorder",
+  "version": "3.0.0",
+  "type": "module",
+  "description": "一键录制 Bilibili 直播间视频，不用错过主播的精彩时刻。",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "node script/dev.js",
+    "build": "node script/build.js",
+    "watch": "mv3-hot-reload"
+  },
+  "alias": {
+    "process": false
+  },
+  "dependencies": {
+    "@parcel/config-default": "^2.5.0",
+    "@parcel/core": "^2.5.0",
+    "@parcel/reporter-cli": "^2.5.0",
+    "@parcel/transformer-less": "^2.5.0",
+    "@parcel/transformer-inline-string": "^2.5.0",
+    "cpy": "^9.0.1",
+    "glob": "^8.0.3",
+    "mv3-hot-reload": "^0.2.7",
+    "rimraf": "^3.0.2",
+    "webm-duration-fix": "^1.0.4"
+  }
+}
